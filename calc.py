@@ -63,7 +63,6 @@ def convert_to_binary():
     to_clear = True
 
 
-
 to_clear = False
 win = tk.Tk()
 win.title('Калкулатор')
