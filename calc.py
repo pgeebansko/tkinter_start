@@ -117,5 +117,5 @@ btn_equ = tk.Button(win, text='=', command=compute).grid(row=7, column=3, sticky
 win.mainloop()
 
 """
-това е някаква корекция
+това е някаква корекция направена от Ивана
 """
