@@ -115,3 +115,7 @@ btn_0 = tk.Button(win, text='0').grid(row=7, column=1, sticky='ewns')
 btn_dot = tk.Button(win, text='.').grid(row=7, column=2, sticky='ewns')
 btn_equ = tk.Button(win, text='=', command=compute).grid(row=7, column=3, sticky='ewns')
 win.mainloop()
+
+"""
+това е някаква корекция
+"""
