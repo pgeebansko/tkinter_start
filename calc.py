@@ -112,5 +112,5 @@ btn_add = tk.Button(win, text='+', command=lambda: add_action('+')).grid(row=6, 
 btn_sgn = tk.Button(win, text='+/-').grid(row=7, column=0, sticky='wens')
 btn_0 = tk.Button(win, text='0').grid(row=7, column=1, sticky='wens')
 btn_dot = tk.Button(win, text='.').grid(row=7, column=2, sticky='wens')
-btn_equ = tk.Button(win, text='=', command=compute).grid(row=7, column=3, sticky='wens')
+tk.Button(win, text='=', command=compute).grid(row=7, column=3, sticky='wens')
 win.mainloop()
